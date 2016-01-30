@@ -1,0 +1,136 @@
+/*This is for all the pages*/
+* {
+  font-family: Lato, Arial Verdana;
+}
+
+header {
+  background-image: url("IMG_7473.jpg");
+}
+
+header div {
+  color: white;
+  padding: 1.2em 0.3em 0.1em 0.3em;
+  font-size: 1.2em;
+  width: 80%;
+  margin: auto;
+}
+
+header h1 {
+  font-family: Pacifico, Arial Verdana;
+  font-size: 2.5em;
+}
+
+/*Navigation*/
+nav {
+  
+  background-color: white;
+  border-bottom: solid lightgrey 1px;
+  
+}
+
+nav div {
+  width: 80%;
+  margin: auto;
+  padding: 0.4em 0;
+  font-family: Verdana,sans-serif;
+  font-size: 1.2em;
+}
+
+nav ul {
+  padding-left: 0;
+}
+nav li {
+	display: inline;
+      color: white;
+      margin-right: 1.2em;
+      padding-left: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+ color: lightblue;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+ background-color: lightyellow;
+}
+
+.markThisPage {
+  text-decoration: underline;
+}
+
+/*Footer*/
+footer li{
+  display: inline;
+  margin: auto 5px;
+}
+
+footer {
+   position: relative;
+   bottom:10px;
+   width:80%;
+   height:60px;   /* Height of the footer */
+   margin: auto;
+   margin-top: 50px;
+   padding-bottom: 10px;
+   border-top: solid lightgrey 2px;
+}
+
+
+/* video page*/
+.class1 {
+  background-color: lightgrey;
+
+}
+.class2{
+  background-color: white;
+  text-align: left;
+}
+
+.sec1 {
+  width: 60%;
+  margin-left: 10%;
+  padding: 30px 5px 5px;
+  text-align: right;
+
+}
+
+.sec2 {
+  width: 60%;
+  margin-left: 10%;
+  padding: 30px 5px 5px;
+  text-align: left;
+}
+
+article section div{
+  display: inline-block;
+  margin: 0 30px;
+}
+
+
+/*photo page and home page*/
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.font1 {
+  font-size: 1.5em;
+}
+
+/*iframe {
+    display: block;       
+    background: #000;
+    border: none;         
+    height: 30vh;        
+    width: 120vw;
+} */
